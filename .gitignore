@@ -1,0 +1,6 @@
+*.db
+*.db-journal
+*.exe
+exam_system
+build/
+.vscode/
