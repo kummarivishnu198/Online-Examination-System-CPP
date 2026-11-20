@@ -43,9 +43,4 @@ On first run, `exam_system.db` is created automatically with users, questions, a
 - The exam duration is a simple elapsed-time check between questions; console input itself is not forcibly interrupted. For a stricter timer, implement a platform-specific asynchronous input layer or GUI.
 - This is an educational prototype, not a secure production examination platform. Add password hashing, audit logs, stronger validation, backup/restore and server-side authorization before deployment.
 
-## Suggested team split
-1. Authentication + registration + admin question bank.
-2. Student exam flow + randomization + timer handling.
-3. SQLite schema + evaluation + reports + testing/documentation.
 
-All members should review and understand the integrated code, not only their assigned module.
